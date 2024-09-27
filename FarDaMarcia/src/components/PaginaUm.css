@@ -6,8 +6,41 @@
     --cor-5: #e6e6e6;
     --cor-6: #ef97a4;
 }
-#body{
 
-  background-color: #ce1f3a
 
+.body-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;               
+      background-color: #e6e6e6; 
+  
+}
+
+header {
+  margin: 20px 0; 
+}
+
+img {
+  max-width: 100%;
+  ;    
+  border-radius: 8px; 
+}
+
+h1 {
+  color: #333; 
+}
+
+p {
+  max-width: 600px; 
+  color: #555; 
+}
+.body::before {
+  content: "";
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: #ce1f3a; 
+  z-index: -1; /* coloca atrás do conteúdo */
 }

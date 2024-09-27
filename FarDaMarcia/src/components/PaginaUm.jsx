@@ -4,7 +4,7 @@ import './PaginaUm.css'
 function PaginaUm() {
 
   return (
-    <div className='PaginaUm-container'>
+    <div className='body-container'>
       <h1>Bem vindo a Farmárcia</h1>
 
        <header>
