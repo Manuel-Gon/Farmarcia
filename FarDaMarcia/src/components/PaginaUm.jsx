@@ -1,4 +1,5 @@
 import React from 'react'
+import Header from './Header'
 import './PaginaUm.css'
 
 function PaginaUm() {
@@ -9,7 +10,7 @@ function PaginaUm() {
 
        <header>
         
-       <img src="/farmarcia.avif" alt="" />
+       <Header />
 
       </header>
 

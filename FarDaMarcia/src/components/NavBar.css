@@ -1,36 +1,44 @@
- *{
-    box-sizing: border-box; 
-}
 
-body {
-    margin: 0; 
-}
 
-.navbar-container {
-    width: 100%; 
-    display: flex; 
+.navbar-container { 
+    display: inline-block; 
     align-items: center; 
-    justify-content: space-between; 
-    padding: 10px; 
     background-color: #ce1f3a; 
 }
 
 .navbar-container img {
-    max-height: 120px; 
+    max-height: 80%; /* Ajusta a altura máxima da imagem em relação à navbar */
+    height: auto; /* Mantém a proporção da imagem */
+padding: auto;
+margin-left: 20px;
 }
 
 button {
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: background-color 0.3s; 
-    height: 50px;
-    width: 130px;
+    background-color: #e96a7e; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove bordas padrão */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 15px 30px; /* Preenchimento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s, transform 0.2s; /* Animação ao passar o mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efeito de profundidade */
+}
+
+button:hover {
+    background-color: #d85b71; /* Cor ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação */
+}
+
+button:active {
+    transform: translateY(1px); /* Efeito de pressionar */
 }
 
 .botao-um, .botao-dois, .botao-tres, .botao-quatro {
     background-color: #e96a7e; 
     color: white;
+    margin-left: 20px;
 }
 
 button:hover {
